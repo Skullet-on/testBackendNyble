@@ -8,7 +8,7 @@ Before installation you can make sure that node.js had installed on your compute
 npm install
 ```
 3. Install MySql if you don't had it.
-4. Create .env file and write this code:
+4. Rename .env.example file to .env and edit this code for your needs:
 ```
 MYSQL_USERNAME="your_username_mysql"
 MYSQL_PASSWORD="your_password_mysql"
