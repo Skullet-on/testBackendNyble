@@ -14,7 +14,11 @@ MYSQL_USERNAME="your_username_mysql"
 MYSQL_PASSWORD="your_password_mysql"
 PORT="port_where_will_be_start_project"
 ```
-
+5. Do migration and add seeds:
+```
+  node_modules/.bin/sequelize db:midrate
+  node_modules/.bin/sequelize db:seed:all
+```
 ## Getting Started
 
 Start project with comand:
